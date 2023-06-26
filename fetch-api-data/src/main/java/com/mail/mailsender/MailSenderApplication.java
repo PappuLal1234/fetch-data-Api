@@ -18,7 +18,7 @@ public class MailSenderApplication {
     public static void main(String[] args) throws Exception{
 
 
-        String urlString = "https://api.zippopotam.us/us/33162";
+        String urlString = "https://api.chucknorris.io/jokes/random";
 
         // creating a URL
         URL url = new URL(urlString);
@@ -52,8 +52,8 @@ public class MailSenderApplication {
             JSONObject jsonAPIResponse = new JSONObject(apiData.toString());
 
             System.out.println(jsonAPIResponse);
-            //System.out.println(jsonAPIResponse.get("icon_url"));
-           // System.out.println(jsonAPIResponse.get("updated_at"));
+//            System.out.println(jsonAPIResponse.get("icon_url"));
+//            System.out.println(jsonAPIResponse.get("updated_at"));
 //            System.out.println(jsonAPIResponse.get("created_at"));
 //            System.out.println(jsonAPIResponse.get("id"));
 //            System.out.println(jsonAPIResponse.get("value"));
