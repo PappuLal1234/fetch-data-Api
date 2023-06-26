@@ -18,7 +18,7 @@ public class MailSenderApplication {
     public static void main(String[] args) throws Exception{
 
 
-        String urlString = "https://api.chucknorris.io/jokes/random";
+        String urlString = "https://api.zippopotam.us/us/33162";
 
         // creating a URL
         URL url = new URL(urlString);
